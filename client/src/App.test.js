@@ -13,3 +13,11 @@ it("renders without crashing", () => {
 test("Display.js renders without crashing", () => {
   render(<Display />);
 });
+
+test("renders without crashing Women World Cup Players!!", () => {
+  render(<h1>Women's World Cup Players!!</h1>);
+});
+
+test("renders without crashing, </button>", () => {
+  render(<button>Display All Players</button>);
+});
