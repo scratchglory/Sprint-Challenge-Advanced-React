@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 1000px;
 }
 
 .App-logo {
@@ -30,4 +31,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 0 auto;
+}
+.data-card {
+  width: 200px;
+  margin: 1%;
+  border: 1px solid dodgerblue;
 }

@@ -1,7 +1,7 @@
 import React from "react";
+// import ReactDOM from "react-dom";
 
-export default function DataCard(props) {
-  console.log(props);
+export function DataCard(props) {
   return (
     <div className="data-card">
       <h2>{props.player.name}</h2>

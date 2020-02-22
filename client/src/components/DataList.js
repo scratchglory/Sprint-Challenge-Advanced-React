@@ -1,7 +1,8 @@
 import React from "react";
-import DataCard from "./DataCard";
+import { DataCard } from "./DataCard";
 
 export default class DataList extends React.Component {
+  //mounting
   constructor() {
     super();
     this.state = {
@@ -28,6 +29,4 @@ export default class DataList extends React.Component {
       </div>
     );
   }
-
-  //unmounting
 }
