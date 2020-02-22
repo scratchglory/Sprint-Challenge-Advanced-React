@@ -2926,6 +2926,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"biskviit@npm:1.0.1":
+  version: 1.0.1
+  resolution: "biskviit@npm:1.0.1"
+  dependencies:
+    psl: ^1.1.7
+  checksum: b4e606a170b9a80cabb86fa6cb7d8790bb3e8e71348a076d7c7163b91fdba73a42c01c60774de01191cd72ed837864f9cbc8d4641a830451b937fac85a31eebd
+  languageName: node
+  linkType: hard
+
 "bluebird@npm:^3.5.5":
   version: 3.7.2
   resolution: "bluebird@npm:3.7.2"
@@ -3526,6 +3535,7 @@ __metadata:
     "@testing-library/jest-dom": ^4.2.4
     "@testing-library/react": ^9.3.2
     "@testing-library/user-event": ^7.1.2
+    fetch: ^1.1.0
     react: ^16.12.0
     react-dom: ^16.12.0
     react-scripts: 3.4.0
@@ -4816,6 +4826,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"encoding@npm:0.1.12":
+  version: 0.1.12
+  resolution: "encoding@npm:0.1.12"
+  dependencies:
+    iconv-lite: ~0.4.13
+  checksum: 823f9cb34eb5ca0b46b6a95a58abdb09608de36e20ceca0b62ea08f897ee032a6be592e6ec141908a0f5ce3e9f330b4600175668a5f063a1799267458e4544c1
+  languageName: node
+  linkType: hard
+
 "end-of-stream@npm:^1.0.0, end-of-stream@npm:^1.1.0":
   version: 1.4.4
   resolution: "end-of-stream@npm:1.4.4"
@@ -5522,6 +5541,16 @@ __metadata:
   dependencies:
     bser: 2.1.1
   checksum: 9fa72b58f829a56cf50576072a9ca035bb3e02eb9a34ecde970ac8f2e21468a08c12f45d905829226443c5d00c4000d4de1af6903d969479c78ee77ddb345967
+  languageName: node
+  linkType: hard
+
+"fetch@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "fetch@npm:1.1.0"
+  dependencies:
+    biskviit: 1.0.1
+    encoding: 0.1.12
+  checksum: f22593e00dbd953faf4b4adf4a6e3b8ef1202b6e22b513d00a9ae702595b26fe928d075583cc2cdba60130c1093dbfcac5b647227566489b79323005a6cbfc3e
   languageName: node
   linkType: hard
 
@@ -6506,7 +6535,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"iconv-lite@npm:0.4.24, iconv-lite@npm:^0.4.24, iconv-lite@npm:^0.4.4":
+"iconv-lite@npm:0.4.24, iconv-lite@npm:^0.4.24, iconv-lite@npm:^0.4.4, iconv-lite@npm:~0.4.13":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
   dependencies:
@@ -10787,7 +10816,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"psl@npm:^1.1.28":
+"psl@npm:^1.1.28, psl@npm:^1.1.7":
   version: 1.7.0
   resolution: "psl@npm:1.7.0"
   checksum: 1982fcd4cdc3a0417eafb0fd97c778b1156807a4891d25a4e6677b6d262d2d175150d7e557a2a3a263bc1e13d4a118f9bbe93f116fc22f479810199629ad13e3
