@@ -4,6 +4,8 @@ import { render } from "@testing-library/react";
 import { act } from "react-dom/test-utils";
 import App from "./App";
 import Display from "./components/Display";
+import DataList from "./components/DataList";
+import useShowing from "./hooks/useShowing";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
@@ -21,6 +23,16 @@ test("renders without crashing Women World Cup Players!!", () => {
 
 test("renders without crashing, </button>", () => {
   render(<button>Display All Players</button>);
+});
+
+test("render DataList", () => {
+  render(<DataList />);
+});
+
+it("testing for hook(s)", () => {
+  act(() => {
+    render(<useShowing />);
+  });
 });
 
 it("changes value when clicked", () => {
