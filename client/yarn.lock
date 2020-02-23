@@ -3539,6 +3539,7 @@ __metadata:
     react: ^16.12.0
     react-dom: ^16.12.0
     react-scripts: 3.4.0
+    react-test-renderer: ^16.12.0
   languageName: unknown
   linkType: soft
 
@@ -11069,7 +11070,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.8.1, react-is@npm:^16.8.4":
+"react-is@npm:^16.8.1, react-is@npm:^16.8.4, react-is@npm:^16.8.6":
   version: 16.12.0
   resolution: "react-is@npm:16.12.0"
   checksum: 1cc13815109812213f5f1e15718551c2c4b3c164b447bd35ceba920dc268c5f0710617f12076d9b8100edd4a7e935f76bf19abe745068e387ff2670b3a3fdb0d
@@ -11144,6 +11145,20 @@ fsevents@^1.2.7:
   bin:
     react-scripts: ./bin/react-scripts.js
   checksum: 3811e185f2838877708b28fe2f87246c66c48f0e890f394df8d8e84f3bc94c0e8e85da1aa8cdfe1b9b1c5fe410c327fd3354f685a8e6016623a79646cf1a1a49
+  languageName: node
+  linkType: hard
+
+"react-test-renderer@npm:^16.12.0":
+  version: 16.12.0
+  resolution: "react-test-renderer@npm:16.12.0"
+  dependencies:
+    object-assign: ^4.1.1
+    prop-types: ^15.6.2
+    react-is: ^16.8.6
+    scheduler: ^0.18.0
+  peerDependencies:
+    react: ^16.0.0
+  checksum: b49f27b1c59baeadab7b724d2b4a8be1ddd9221edbf06956a0b2c9c2fa6b5c0c30c5d7eb2c08ed515e7293be0420f1f957bc39fbcf28f1c9b588c824bf3e132b
   languageName: node
   linkType: hard
 

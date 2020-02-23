@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { render } from "@testing-library/react";
+import { act } from "react-dom/test-utils";
 import App from "./App";
 import Display from "./components/Display";
 
@@ -20,4 +21,11 @@ test("renders without crashing Women World Cup Players!!", () => {
 
 test("renders without crashing, </button>", () => {
   render(<button>Display All Players</button>);
+});
+
+it("changes value when clicked", () => {
+  const onChange = jest.fn();
+  act(() => {
+    render(<Display onChange={onChange} />);
+  });
 });
