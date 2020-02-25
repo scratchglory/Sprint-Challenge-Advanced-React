@@ -22,7 +22,7 @@ export default class DataList extends React.Component {
   //update
   render() {
     return (
-      <div className="player-list">
+      <div className="player-list" data-testid="player-list">
         {this.state.players.map(player => {
           return <DataCard key={player.id} player={player} />;
         })}
